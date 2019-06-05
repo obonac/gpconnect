@@ -6,6 +6,8 @@ sidebar: overview_sidebar
 permalink: overview_glossary.html
 summary: "Glossary of terms used in the GP Connect FHIR&reg; API specification"
 toc: false
+permalink: "/overview/overview_glossary.html"
+breadcrumb: Glossary
 ---
 
 {% assign gloss = site.data.glossary | sort:'title' %}

@@ -1352,3 +1352,12 @@ a.back-to-top {
 .jwt-page pre.remove-highlight code {
     color: #444;
 }
+
+/* Strip the outbound icon when this class is present */
+
+a[href].noExtIcon::after,
+a.no_icon:after
+ {
+  content: "" !important;
+  padding-left: 0;
+}

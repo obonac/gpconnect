@@ -120,3 +120,15 @@ gems:
    - jekyll-redirect-from
    - jekyll-seo-tag
    - jekyll-sitemap
+
+############# Breadcrumb ############
+# you can modify the breadcrumb in _includes/breadcrumb.html
+
+# Display breadcrumbs at all?
+breadcrumb_display: true
+
+# Display Home path in breadcrumb?
+breadcrumb_home_display: false
+
+# Url for Home path to point to
+breadcrumb_home_url: http://localhost:4005

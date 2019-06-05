@@ -6,6 +6,8 @@ sidebar: overview_sidebar
 toc: false
 permalink: overview_priority_capabilities.html
 summary: A brief introduction to the priority GP Connect capabilities
+permalink: "/overview/overview_priority_capabilities.html"
+breadcrumb: Capabilities
 ---
 
 

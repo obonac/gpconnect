@@ -3,9 +3,10 @@ title: Introduction to GP Connect API
 keywords: homepage
 tags: [getting_started]
 sidebar: home_sidebar
-permalink: index.html
+permalink: /overview/index.html
 toc: false
 summary: A brief introduction to getting started with the GP Connect FHIR&reg; APIs
+breadcrumb: Introduction
 ---
 
 {% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in First of Type activities, other parties are advised not to develop against these specifications until a formal announcement has been made." %}
