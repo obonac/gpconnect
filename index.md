@@ -3,7 +3,7 @@ title: Introduction to GP Connect API
 keywords: homepage
 tags: [getting_started]
 sidebar: home_sidebar
-permalink: /overview/index.html
+permalink: index.html
 toc: false
 summary: A brief introduction to getting started with the GP Connect FHIR&reg; APIs
 breadcrumb: Introduction

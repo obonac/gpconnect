@@ -6,7 +6,7 @@ sidebar: overview_sidebar
 toc: false
 permalink: overview_engage.html
 summary: "Getting involved with GP Connect"
-permalink: "/overview/overview_engage.html"
+permalink: overview_engage.html
 breadcrumb: Getting started
 ---
 
