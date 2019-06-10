@@ -105,29 +105,45 @@ breadcrumb:
   url: GP Connect API  >  Implement a capability  >  Access Record HTML  >  Development  >  HTML views  >  Administrative items
 
 - id: appointments.html
+  url: Appointment Management  
 
 - id: accessrecord_rest.html
+  url: Access Record Structured
 
-- id: integration_cross_organisation_audit_and_provenance.html
 - id: integration_illustrated.html
-- id: integration_interaction_ids.html
-- id: integration_overview.html
-- id: integration_personal_demographic_service.html
-- id: integration_sds_registering_endpoints.html
-- id: integration_spine_directory_service.html
-- id: integration_spine_secure_proxy.html
-- id: integration_spine_security_proxy_implementation_guide.html
+  url: Integrate with Spine  >  Spine integration illustrated
 - id: integration_system_topologies.html
+  url: Integrate with Spine  >  System topologies
+- id: integration_cross_organisation_audit_and_provenance.html
+  url: Integrate with Spine  >  Cross organisation audit and provenance
+- id: integration_personal_demographic_service.html
+  url: Integrate with Spine  >  Personal Demographic Service
+- id: integration_spine_directory_service.html
+  url: Integrate with Spine  >  Spine Directory Services  >   Overview and querying
+- id: integration_sds_registering_endpoints.html
+  url: Integrate with Spine  >  Spine Directory Services  >   Registering systems
+- id: integration_interaction_ids.html
+  url: Integrate with Spine  >   Interaction IDs
+- id: integration_spine_secure_proxy.html
+  url: Integrate with Spine  >   Spine Secure Proxy
 
-- id: testing_api_consumer_testing.html
-- id: testing_api_provider_testing.html
 - id: testing_deliverables.html
+  url: Test and assure  >  Testing assets
 - id: testing_environments.html
+  url: Test and assure  >  Test environments
+- id: testing_api_provider_testing.html
+  url: Test and assure  >  Provider testing
+- id: testing_api_consumer_testing.html
+  url: Test and assure  >  Consumer testing
 
-- id: support_communications.html
-- id: support_faq.html
+- id: support_faq.html 
+  url: Help and support  >   Frequently asked questions
 - id: overview_glossary.html
+  url: Help and support  >   Glossary
+- id: support_communications.html
+  url: Help and support  >   Communication channels
 - id: support_run_website_locally.html
+  url: Help and support  >   Run website locally
 
 - id: tag_appointments.html
 - id: tag_assurance.html
