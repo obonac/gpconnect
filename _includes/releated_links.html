@@ -1,0 +1,15 @@
+<br>
+<div class="sidelink sidelink-default">
+	<div class="sidelink-heading">Related links</div>
+		<div class="nav">
+		<ul style="display: block;">
+            {% for item in site.data.related.link %}
+				{% if item.id == page.permalink %}
+	
+					{{item.url}}
+	
+				{% endif %}
+			{% endfor %}
+		</ul>
+		</div>
+    </div>

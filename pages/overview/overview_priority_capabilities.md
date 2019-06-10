@@ -8,6 +8,7 @@ permalink: overview_priority_capabilities.html
 summary: A brief introduction to the priority GP Connect capabilities
 permalink: overview_priority_capabilities.html
 breadcrumb: Capabilities
+pathways: [provider,consumer]
 ---
 
 

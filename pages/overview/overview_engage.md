@@ -8,6 +8,7 @@ permalink: overview_engage.html
 summary: "Getting involved with GP Connect"
 permalink: overview_engage.html
 breadcrumb: Getting started
+pathways: [provider,consumer]
 ---
 
 ## The Open API ecosystem
