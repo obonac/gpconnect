@@ -223,7 +223,7 @@ For example if the request could not be understood by the server due to malforme
 
 ### Spine Security Proxy errors ###
 
-When the spine security proxy cannot or will not process a request then the follwoing errors **MUST** be used to return debug details.
+When the spine security proxy cannot or will not process a request then the following errors **MUST** be used to return debug details.
 
 #### Example 7. Bad Request #####
 
