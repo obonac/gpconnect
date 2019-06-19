@@ -195,7 +195,7 @@ For the purpose of GP Connect FoT clients and servers **MUST** authenticate usin
 
 Servers **MUST** provide a read-only FHIR Conformance resource that identifies all of the profiles and operations that the server supports for each resource type.
 
-A servers conformance statement **MUST** be available using the following [conformance interactions](http://hl7.org/fhir/http.html#conformance):
+A server's conformance statement **MUST** be available using the following [conformance interactions](http://hl7.org/fhir/http.html#conformance):
 
 ```
 GET [base]/metadata {?_format=[mime-type]}
