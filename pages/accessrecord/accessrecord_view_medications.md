@@ -115,7 +115,7 @@ Providers **MUST** return all the columns as described in the table below, order
 | Order | Name | Description | Value Details &nbsp;&nbsp;&nbsp; |
 | ------------ | ------------ | ------------ |
 | <center>1</center> | `Last Issued`  <i class="fa fa-sort-desc" aria-hidden="true">  |  Date of medication item last issued | `dd-Mmm-yyyy` |
-| <center>2</center> | `Medication Item` &nbsp;&nbsp;&nbsp; | Descriptive name of medication item (inculding dosage) | `free-text` |
+| <center>2</center> | `Medication Item` &nbsp;&nbsp;&nbsp; | Descriptive name of medication item (including dosage) | `free-text` |
 | <center>3</center> | `Start Date` | Start date of medication item issued | `dd-Mmm-yyyy` |
 | <center>4</center> | `Review Date` | Review date of medication issued | `dd-Mmm-yyyy` |
 | <center>5</center> | `Number Issued` | Number of times medication item issued | `integer` |
