@@ -444,7 +444,7 @@ The FHIR specification defines a set of [data types](https://www.hl7.org/fhir/DS
 
 The user locale (i.e. user's language, region and any special variant preferences that the user may want to see in their user interface) of a systems **MUST NOT** effect the FHIR on the wire representation of any data types (especially date-time and number formats).
 
-Certain aspects of [Primitive Data Type](https://www.hl7.org/fhir/DSTU2/datatypes.html#primitive) respresentation warrant further consideration and **MUST** be taken into consideration when designing and constructing FHIR resources.
+Certain aspects of [Primitive Data Type](https://www.hl7.org/fhir/DSTU2/datatypes.html#primitive) representation warrant further consideration and **MUST** be taken into consideration when designing and constructing FHIR resources.
 
 For example:
 
@@ -505,7 +505,7 @@ Servers **MUST** validate the existence of any referenced resources when creatin
 
 Refer to the GitHub hosted [GP Connect FHIR Repository](https://github.com/nhsconnect/gpconnect-fhir) for the published FHIR profiles.
 
-Refer to the [HL7&reg; FHIR&reg; Validator](https://www.hl7.org/fhir/DSTU2/validation.html#jar) page for the most upto date details on how FHIR resources can be validated. 
+Refer to the [HL7&reg; FHIR&reg; Validator](https://www.hl7.org/fhir/DSTU2/validation.html#jar) page for the most up to date details on how FHIR resources can be validated. 
 
 Servers **MUST** provide a read interaction for every resource it accepts update interactions on.
 
@@ -733,7 +733,7 @@ To update an existing resource, a RESTful **PUT** operation with a request body 
 PUT [base]/[resourcetype]/[id]
 ```
 
-The PUT operation will only be used to update existing resources, if the specified resource within the url does not exist on the provider system an error **MUST** be returned.
+The PUT operation will only be used to update existing resources, if the specified resource within the URL does not exist on the provider system an error **MUST** be returned.
 
 | Capability       | Resource(s) | Field(s) |
 | ------------ | ----------- | -------- |
@@ -809,7 +809,7 @@ Servers **MUST** support searching by a chained `Patient` identifier parameter f
 GET [base]/AllergyIntolerance?patient.identifier=http://fhir.nhs.net/Id/nhs-number|1234569876
 ```
 
-{% include important.html content="GP Connect clients and servers are not expected to support arbitrary adhoc searching." %}
+{% include important.html content="GP Connect clients and servers are not expected to support arbitrary ad hoc searching." %}
 
 ### Search example: search for a patient resource by business Id ###
 
