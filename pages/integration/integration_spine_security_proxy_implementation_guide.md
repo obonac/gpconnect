@@ -4,7 +4,7 @@ keywords: spine, proxy, ssp, security
 tags: [integration]
 sidebar: overview_sidebar
 permalink: integration_spine_security_proxy_implementation_guide.html
-summary: "Technical specification for the Spine Security Proxy (SSP)."
+summary: "Technical specification for the Spine Security Proxy (SSP)"
 ---
 
 ## Spine Security Proxy (SSP) implementation guide ##
@@ -246,7 +246,7 @@ The inclusion of the consumer systems UserID, user name and date/time of the eve
 	- `PUT`
 	- `DELETE`^
 	- `PATCH`^ (which is expected in a future FHIR release)
-	- `OPTION`^ (which is used in FHIR to retrieve the servers conformance statement)
+	- `OPTION`^ (which is used in FHIR to retrieve the server's conformance statement)
  **^** HTTP verbs will be made available after the initial GP Connect FoT go-live.
 - Request and response HTTP payloads **MUST** NOT be modified, as this would require the proxy to have detained knowledge of payload structure and transport encoding. Furthermore, payload modification may introduce problems with asserting digital signatures/payload provenance in the future.
 - Request and response HTTP headers **MUST** NOT be modified.
