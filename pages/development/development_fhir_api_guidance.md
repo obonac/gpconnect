@@ -331,7 +331,7 @@ Systems **MUST** declare which format(s) they support in their Conformance State
 
 ### [Transfer encoding](https://www.hl7.org/fhir/DSTU2/http.html#mime-type) ###
 
-Clients and servers **MUST** support the HTTP `Transfer-Encoding` header with a value of `chunked`. This indicates that the body of a HTTP response will be returned as an unspecified number of data chunks (without an explicit `Content-Length` header).
+Clients and servers **MUST** support the HTTP `Transfer-Encoding` header with a value of `chunked`. This indicates that the body of an HTTP response will be returned as an unspecified number of data chunks (without an explicit `Content-Length` header).
 
 ### [Character encoding](https://www.hl7.org/fhir/DSTU2/http.html#mime-type) ###
 
