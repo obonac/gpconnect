@@ -3,3 +3,5 @@ link:
   url: <li><a href = "/overview_engage.html">Getting started</a></li> <li><a href "/test.html">Test</a></li>
 - id: accessrecord.html
   url: <li><a href = "/foundations.html">Foundations</a></li> <li><a href "/system_demonstrator.html">System demonstrator</a></li> <li><a href "/integration_illustrated.html">Integrate with Spine</a></li> <li><a href "/testing_deliverables.html">Test and assure</a></li> <br/> <li><a href="javascript:history.back()">Go Back</a></li>
+- id: foundations.html
+  url: <li><a href = "/accessrecord.html">Access Record HTML</a></li> <li><a href "/system_demonstrator.html">System demonstrator</a></li> <li><a href "/integration_illustrated.html">Integrate with Spine</a></li> <li><a href "/testing_deliverables.html">Test and assure</a></li> <br/> <li><a href="javascript:history.back()">Go Back</a></li>
