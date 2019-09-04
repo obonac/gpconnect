@@ -5,12 +5,10 @@
 		<ul style="display: block;">
             {% for item in site.data.related.link %}
 				{% if item.id == page.permalink %}
-	
 					{{item.url}}
-	
 				{% endif %}
 			{% endfor %}
 			<li id="gpcnavlink"> <a href="javascript:history.go(-1)"> Go back to previous page</a></li>
-			</ul>
+		</ul>
 		</div>
-    </div>
+        </div>
