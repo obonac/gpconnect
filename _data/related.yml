@@ -2,4 +2,4 @@ link:
 - id: index.html
   url: <li><a href = "/overview_engage.html">Getting started</a></li> <li><a href "/test.html">Test</a></li>
 - id: accessrecord.html
-  url: <li><a href = "/integration_cross_organisation_audit_and_provenance.html">Cross organisation audit and provenance</a></li> <li><a href "/integration_personal_demographic_service.html">PDS</a></li> <li><a href "/integration_spine_directory_service.html">Querying SDS</a></li>
+  url: <li><a href = "/foundations.html">Foundations</a></li> <li><a href "/system_demonstrator.html">System demonstrator</a></li> <li><a href "/integration_illustrated.html">Integrate with Spine</a></li> <li><a href "/testing_deliverables.html">Test and assure</a></li>
