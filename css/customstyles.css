@@ -886,12 +886,6 @@ span.soft {
     }
 }
 
-@media (min-width: 1000px) {
-
-    ul#mysidebar {
-        width: 225px;
-    }
-}
 
 @media (max-width: 900px) {
 
@@ -1583,3 +1577,17 @@ a.no_icon:after
   border-color: #cccccc;
 }
 
+.panel-quick {
+  border-color: #FFFFFF;
+}
+.panel-quick > .panel-heading {
+  color: #000000;
+  background-color:  #FFFFFF;
+  border-color: #f1f1f1;
+}
+.panel-quick > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #bce8f1;
+}
+.panel-quick > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color:  #FFFFFF;
+}

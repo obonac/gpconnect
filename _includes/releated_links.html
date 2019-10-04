@@ -1,14 +1,19 @@
 <br>
-<div class="sidelink sidelink-default">
-	<div class="sidelink-heading">Helpful links</div>
-		<div class="nav">
-		<ul style="display: block;">
-            {% for item in site.data.related.link %}
-				{% if item.id == page.permalink %}
-					{{item.url}}
-				{% endif %}
-			{% endfor %}
-			<li id="gpcnavlink"> <a href="javascript:history.go(-1)"> Go back to previous page</a></li>
-		</ul>
-		</div>
-        </div>
+<br>
+<div class="panel panel-quick">
+	<div class="panel-heading">Quick links</div>
+		<div class="panel-body">
+			<ul style="list-style-type:none; padding-left:5px">
+				{% for item in site.data.related.link %}
+					{% if item.id == page.permalink %}
+						{{item.url}}
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<br>
+			<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+              <a href="javascript:history.go(-1)"> Go back to previous page</a>
+	</div>
+</div>
+
+
