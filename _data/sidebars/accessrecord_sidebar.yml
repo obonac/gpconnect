@@ -49,6 +49,17 @@ entries:
       output: web
       url: /accessrecord_known_issues.html
       
+  - title: Data Model
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /datalibraryaccessRecord.html
+      output: web
+      
+      
+
+      
       
 
       
