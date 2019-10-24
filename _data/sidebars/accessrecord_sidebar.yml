@@ -72,6 +72,9 @@ entries:
         output: web
         subfolderitems:
 
+        - title: <b class='resource'>Retrieve a care record section</b>
+          url: /accessrecord_use_case_retrieve_a_care_record_section.html
+          output: web, pdf
         - title: <b class='resource'>Standards</b>
           url: /accessrecord_development_html_implementation_guide.html
           output: web
