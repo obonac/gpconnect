@@ -30,10 +30,8 @@ entries:
     folderitems:
 
     - title: User Stories
-      url: 
       output: web, pdf   
     - title: Use Cases
-      url: 
       output: web, pdf
     - title: Clinical Engagement
       url: /accessrecord_clinical_scenarios.html
