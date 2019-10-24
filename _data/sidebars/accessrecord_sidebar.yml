@@ -37,5 +37,19 @@ entries:
       output: web, pdf
     - title: Information and Governance
       output: web, pdf
+
+  - title: Design1
+    output: web, pdf
+    folderitems:
+
+    - title: Design Decisions
+      url: /accessrecord_design.html
+      output: web
+    - title: Known Issues
+      output: web
+      url: /accessrecord_known_issues.html
+      
+      
+
       
       
