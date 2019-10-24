@@ -16,7 +16,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview2
+  - title: Overview3
     output: web, pdf
     folderitems:
 
@@ -24,5 +24,21 @@ entries:
       url: /accessrecord.html
       output: web, pdf
       type: homepage
+      
+   - title: Business Requirements1
+    output: web, pdf
+    folderitems:
+
+    - title: User Stories
+      url: /accessrecord.html
+      output: web, pdf   
+    - title: Use Cases
+      url: /accessrecord.html
+      output: web, pdf
+    - title: Clinical Engagement
+      url: /accessrecord_clinical_scenarios.html
+      output: web, pdf
+    - title: Information and Governance
+      output: web, pdf
       
    
