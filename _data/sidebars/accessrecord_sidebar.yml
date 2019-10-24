@@ -24,6 +24,23 @@ entries:
       url: /accessrecord.html
       output: web, pdf
       type: homepage
+      
+   - title: Business Requirements
+    output: web, pdf
+    folderitems:
+
+    - title: User Stories
+      url: 
+      output: web, pdf   
+    - title: Use Cases
+      url: 
+      output: web, pdf
+    - title: Clinical Engagement
+      url: /accessrecord_clinical_scenarios.html
+      output: web, pdf
+    - title: Information and Governance
+      output: web, pdf
+      
     - title: Clinical scenarios
       url: /accessrecord_clinical_scenarios.html
       output: web, pdf
