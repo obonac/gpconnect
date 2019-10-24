@@ -81,10 +81,11 @@ entries:
         - title: <b class='resource'>Provider variance</b>
           url: /accessrecord_provider_variance.html
           output: web
-
-        - title: HTML views
-          output: web, pdf
-          subfolderitems:
+    
+      - title: HTML views
+        output: web, pdf
+        subfolderitems:
+        
           - title: <b class='resource'>Summary</b>
             url: /accessrecord_view_summary.html
             output: web, pdf
