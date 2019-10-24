@@ -25,18 +25,4 @@ entries:
       output: web, pdf
       type: homepage
       
-   - title: Business Requirements
-    output: web, pdf
-    folderitems:
-
-    - title: User Stories
-      output: web, pdf   
-    - title: Use Cases
-      output: web, pdf
-    - title: Clinical Engagement
-      url: /accessrecord_clinical_scenarios.html
-      output: web, pdf
-    - title: Information and Governance
-      output: web, pdf
-      
    
