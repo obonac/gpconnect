@@ -118,7 +118,11 @@ entries:
             output: web, pdf
           - title: <b class='resource'>Administrative items</b>
             url: /accessrecord_view_administrative_items.html
-            output: web, pdf
+            output: web, pdf    
+    
+  - title: Testing
+    output: web, pdf
+    folderitems:
 
       
       
