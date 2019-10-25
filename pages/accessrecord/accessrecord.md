@@ -24,7 +24,7 @@ The content displayed in the HTML views has then been used as a common baseline 
 Significant effort has already been made to unify the HTML section views from all four principal suppliers but it is expected that this will be an iterative process during development, UAT and FoT.
 
 ## Problem Statement ##
-<Add text>
+To Do
 
 ### Scope ###
 
