@@ -37,6 +37,9 @@ entries:
       output: web, pdf
     - title: Information and Governance
       output: web, pdf
+    - title: Known Issues
+      output: web
+      url: /accessrecord_known_issues.html
 
   - title: Design
     output: web, pdf
