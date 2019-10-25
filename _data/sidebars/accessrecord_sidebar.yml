@@ -16,15 +16,15 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview5
+  - title: Overview
     output: web, pdf
     folderitems:
 
-    - title: Introduction1
+    - title: Introduction
       url: /accessrecord.html
       output: web, pdf     
 
-  - title: Business Requirements2
+  - title: Business Requirements
     output: web, pdf
     folderitems:
 
@@ -38,17 +38,14 @@ entries:
     - title: Information and Governance
       output: web, pdf
 
-  - title: Design1
+  - title: Design
     output: web, pdf
     folderitems:
 
     - title: Design Decisions
       url: /accessrecord_design.html
       output: web
-    - title: Known Issues
-      output: web
-      url: /accessrecord_known_issues.html
-      
+       
   - title: Data Model
     output: web, pdf
     folderitems:
@@ -118,7 +115,11 @@ entries:
             output: web, pdf
           - title: <b class='resource'>Administrative items</b>
             url: /accessrecord_view_administrative_items.html
-            output: web, pdf    
+            output: web, pdf  
+            
+       - title: Known Issues
+         output: web
+         url: /accessrecord_known_issues.html
     
   - title: Testing
     output: web, pdf
