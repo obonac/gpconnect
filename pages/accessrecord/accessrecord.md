@@ -10,7 +10,7 @@ toc: false
 
 <a href="#" class="back-to-top">Back to Top</a>
 
-## Overview ##
+### Overview ###
 
 {% include custominfocallout.html content="**Information:** For Direct Patient Care purposes only, the Primary Care record contains a wealth of useful information which can improve patient safety and efficiency if it is made interoperable (subject to IG and Clinical Safety requirements) across health care settings. <br/><br/>Access Record HTML is delivering the capability to view a patient record and **MUST** be used in real time for read only. <br/><br/> Please refer to [NHS Digital - FAQ on legal access to personal confidential data - Definitions questions - How is Direct Patient Care defined?](http://content.digital.nhs.uk/article/3638/Personal-data-access-FAQs){:target='_blank'} for details of what constitutes direct patient care. " type="danger" %} 
 
@@ -23,7 +23,7 @@ The content displayed in the HTML views has then been used as a common baseline 
 
 Significant effort has already been made to unify the HTML section views from all four principal suppliers but it is expected that this will be an iterative process during development, UAT and FoT.
 
-## Problem Statement ##
+### Problem Statement ###
 To Do
 
 ### Scope ###
@@ -48,7 +48,7 @@ The information sections in scope for care record access are:
 - Extended access GP practices can view all of the patient's primary care views even when the record is held on a different GP system
 - Other care settings (e.g. 111, Physio, Community, Emergency, Acute/Secondary, Social) can view the patient's GP record (those held by the patient's recorded GP practice) to better inform care decisions they may be making for a patient.
 
-## Versioning ##
+### Versioning ###
 
 To Do
 
