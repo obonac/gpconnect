@@ -33,7 +33,7 @@ entries:
       url: /accessrecord_structured_known_issues.html
       output: web, pdf
 
-- title: Development
+  - title: Development
     output: web, pdf
     folderitems:
 
