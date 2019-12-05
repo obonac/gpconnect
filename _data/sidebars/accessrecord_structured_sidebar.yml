@@ -10,20 +10,30 @@ entries:
     - title: Introduction
       url: /accessrecord_structured.html
       output: web, pdf
+    - title: Sitemap
+      url: /sitemap_access_record_structured.html
+      output: web
+
+  - title: Business Requirements
+    output: web, pdf
+    folderitems:
+
     - title: Business requirements
       url: /accessrecord_structured_requirements.html
       output: web, pdf
     - title: Requirements catalogue <img src="images/nhsddownload.png" height="17" width="17" align="right">
       url: /pages&#47;accessrecord_structured&#47;GP%20Connect%20Req%20Cat%20-%20Access%20Record%20Structured%20Data%20v2.2.xlsx"rel="nofollow" target="_blank"
       output: web, pdf
+
+  - title: Design
+    output: web, pdf
+    folderitems:
+
     - title: Known issues
       url: /accessrecord_structured_known_issues.html
       output: web, pdf
-    - title: Sitemap
-      url: /sitemap_access_record_structured.html
-      output: web
 
-  - title: Development
+- title: Development
     output: web, pdf
     folderitems:
 
