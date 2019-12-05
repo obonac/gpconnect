@@ -23,7 +23,12 @@ entries:
     - title: Introduction
       url: /appointments.html
       output: web
-    - title: Business requirements
+      
+  - title: Business requirements
+    output: web, pdf
+    folderitems:
+    
+    - title: Requirements
       url: /appointments_requirements.html
       output: web
     - title: Clinical scenarios
