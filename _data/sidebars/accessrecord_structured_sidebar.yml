@@ -29,33 +29,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Allergies guidance
-      url: /accessrecord_structured_development_allergies_guidance.html
-      output: web
-    - title: Medication and medical device guidance
-      url: /accessrecord_structured_development_medication_guidance.html
-      output: web
-    - title: Immunisations guidance
-      output: web
-      url: /accessrecord_structured_development_immunization_guidance.html
-    - title: Uncategorised data guidance
-      url: /accessrecord_structured_development_uncategorisedData_guidance.html
-      output: web
-    - title: Consultations guidance
-      url: /accessrecord_structured_development_consultation_guidance.html
-      output: web
-    - title: Problem guidance
-      url: /accessrecord_structured_development_problems_guidance.html
-      output: web
-    - title: Investigations guidance
-      url: /accessrecord_structured_development_pathology_guidance.html
-      output: web
-    - title: Referrals guidance
-      output: web
-      url: /accessrecord_structured_development_referralrequest_guidance.html
-    - title: Documents guidance
-      output: web
-      url: /accessrecord_documents.html
     - title: Known issues
       url: /accessrecord_structured_known_issues.html
       output: web, pdf
@@ -80,11 +53,22 @@ entries:
         - title: <b class='resource'>Linkages</b>
           url: /accessrecord_structured_development_linkages.html
           output: web
-        - title: Medication and medical device resource relationships
-          url: /accessrecord_structured_development_medication_resource_relationships.html
-          output: web
         - title: <b class='resource'>Search criteria</b>
           url: /accessrecord_structured_development_search.html
+          output: web
+
+      - title: API use cases
+        output: web
+        subfolderitems:
+
+        - title: Retrieve a patient's structured record
+          url: /accessrecord_structured_development_retrieve_patient_record.html
+          output: web
+        - title: API Version Compatibility
+          url: /accessrecord_structured_development_version_compatibility.html
+          output: web
+        - title: Forwards compatibility support example
+          url: /accessrecord_structured_development_fhir_examples_forwards_consultations.html
           output: web
 
       - title: Implementation guidance
@@ -97,8 +81,20 @@ entries:
         - title: <b class='resource'>Structural resources - Bundle</b>
           url: /accessrecord_structured_development_bundle.html
           output: web
+        - title: Allergies guidance
+          url: /accessrecord_structured_development_allergies_guidance.html
+          output: web
         - title: <b class='resource'>AllergyIntolerance</b>
           url: /accessrecord_structured_development_allergyintolerance.html
+          output: web
+        - title: Allergies FHIR&reg; example
+          url: /accessrecord_structured_development_fhir_examples_allergies.html
+          output: web
+        - title: Medication and medical device resource relationships
+          url: /accessrecord_structured_development_medication_resource_relationships.html
+          output: web
+        - title: Medication and medical device guidance
+          url: /accessrecord_structured_development_medication_guidance.html
           output: web
         - title: <b class='resource'>Medication</b>
           url: /accessrecord_structured_development_medication.html
@@ -109,20 +105,50 @@ entries:
         - title: <b class='resource'>MedicationRequest</b>
           url: /accessrecord_structured_development_medicationrequest.html
           output: web
+        - title: Medication FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_medication.html
+          output: web
+        - title: Immunisations guidance
+          output: web
+          url: /accessrecord_structured_development_immunization_guidance.html
         - title: <b class='resource'>Immunization</b>
           url: /accessrecord_structured_development_immunization.html
           output: web
-        - title: <b class='resource'>Uncategorised data - Observation</b>
+        - title: Immunization FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_immunizations.html
+          output: web
+        - title: Uncategorised data guidance
+          url: /accessrecord_structured_development_uncategorisedData_guidance.html
+          output: web
+        - title: <b class='resource'>Observation - uncategorised data</b>
           url: /accessrecord_structured_development_observation_uncategorisedData.html
+          output: web
+        - title: Uncategorised data FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_uncategorised.html
+          output: web
+        - title: Consultations - Consultation guidance
+          url: /accessrecord_structured_development_consultation_guidance.html
           output: web
         - title: <b class='resource'>Consultations - Encounter</b>
           url: /accessrecord_structured_development_encounter.html
           output: web
-        - title: <b class='resource'>Consultations - List</b>
+        - title: <b class='resource'>Consultation structure - List</b>
           url: /accessrecord_structured_development_list_consultation.html
           output: web
-        - title: <b class='resource'>Problems - ProblemHeader-Condition</b>
+        - title: Consultation FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_consultations.html
+          output: web
+        - title: Problem guidance
+          url: /accessrecord_structured_development_problems_guidance.html
+          output: web
+        - title: <b class='resource'>Problems - Condition problem header (Condition)</b>
           url: /accessrecord_structured_problems.html
+          output: web
+        - title: Problems FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_consultations.html#
+          output: web
+        - title: Investigations - Investigations guidance
+          url: /accessrecord_structured_development_pathology_guidance.html
           output: web
         - title: <b class='resource'>Investigations - DiagnosticReport</b>
           url: /accessrecord_structured_development_DiagnosticReport.html
@@ -142,49 +168,18 @@ entries:
         - title: <b class='resource'>Investigations - ProcedureRequest</b>
           url: /accessrecord_structured_development_ProcedureRequest.html
           output: web
+        - title: Investigations FHIR&reg; examples
+          url: /accessrecord_structured_development_fhir_examples_pathology.html
+          output: web
+        - title: Referrals guidance
+          output: web
+          url: /accessrecord_structured_development_referralrequest_guidance.html
         - title: <b class='resource'>ReferralRequest</b>
           url: /accessrecord_structured_development_referralrequest.html
           output: web
-
-      - title: FHIR&reg; examples
-        output: web
-        subfolderitems:
-
-        - title: Allergies examples
-          url: /accessrecord_structured_development_fhir_examples_allergies.html
-          output: web
-        - title: Medication examples
-          url: /accessrecord_structured_development_fhir_examples_medication.html
-          output: web
-        - title: Immunization examples
-          url: /accessrecord_structured_development_fhir_examples_immunizations.html
-          output: web
-        - title: Uncategorised data FHIR&reg; examples
-          url: /accessrecord_structured_development_fhir_examples_uncategorised.html
-          output: web
-        - title: Consultation examples
-          url: /accessrecord_structured_development_fhir_examples_consultations.html
-          output: web
-        - title: Problems examples
-          url: /accessrecord_structured_development_fhir_examples_consultations.html#
-          output: web
-        - title: Investigations examples
-          url: /accessrecord_structured_development_fhir_examples_pathology.html
-          output: web
-        - title: Referrals examples
+        - title: Referrals FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_referrals.html
           output: web
-
-      - title: API use cases
-        output: web
-        subfolderitems:
-
-        - title: Retrieve a patient's structured record
-          url: /accessrecord_structured_development_retrieve_patient_record.html
+        - title: Documents guidance
           output: web
-        - title: API Version Compatibility
-          url: /accessrecord_structured_development_version_compatibility.html
-          output: web
-        - title: Forwards compatibility support example
-          url: /accessrecord_structured_development_fhir_examples_forwards_consultations.html
-          output: web
+          url: /accessrecord_documents.html
