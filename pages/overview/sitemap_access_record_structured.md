@@ -36,18 +36,18 @@ toc: false
 	<p><a href="pages/accessrecord_structured/GP%20Connect%20Req%20Cat%20-%20Access%20Record%20Structured%20Data%20v2.2.xlsx">Requirements catalogue</a></p>
    <p style="font-size:18px">Design</p>
     	<p><a href="accessrecord_structured_known_issues.html">Known issues</a></p>
-	  </div>
-  <div class="column">
     <p style="font-size:18px">Development</p>
 	<p><a href="accessrecord_structured_development.html">Introduction</a></p>	
 	<p style="padding-top:8px">FHIR&reg; resources</p>  
     	<p><a href="accessrecord_structured_development_resources_overview.html">Resource population fundamentals</a></p>
 	<p><a href="accessrecord_structured_development_linkages.html">Linkages</a></p>  
 	<p><a href="accessrecord_structured_development_search.html">Search criteria</a></p>
-	<p style="font-size:18px">API use cases</p>
+	<p style="padding-top:8px">API use cases</p>
 	<p><a href="accessrecord_structured_development_retrieve_patient_record.html">Retrieve a patient's structured record</a></p>
 	<p><a href="accessrecord_structured_development_version_compatibility.html">API version compatibility</a></p>
 	<p><a href="accessrecord_structured_development_fhir_examples_forwards_consultations.html">Forwards compatibility support example</a></p>
+  </div>
+  <div class="column">
 	<p style="padding-top:8px">Implementation guidance</p>
 	<p><a href="accessrecord_structured_development_list.html">List</a></p>
 	<p><a href="accessrecord_structured_development_bundle.html">Bundle</a></p>
@@ -63,11 +63,11 @@ toc: false
 	<p><a href="accessrecord_structured_development_immunization_guidance.html">Immunisations guidance</a></p>
 	<p><a href="accessrecord_structured_development_immunization.html">Immunization</a></p>
 	<p><a href="accessrecord_structured_development_fhir_examples_immunizations.html">Immunization FHIR&reg; examples</a></p>
-  </div>
-  <div class="column">
 	<p><a href="accessrecord_structured_development_uncategorisedData_guidance.html">Uncategorised data guidance</a></p>
 	<p><a href="accessrecord_structured_development_observation_uncategorisedData.html">Observation - uncategorised data</a></p>
 	<p><a href="accessrecord_structured_development_fhir_examples_uncategorised.html">Uncategorised data FHIR® examples</a>  
+  </div>
+  <div class="column">
 	<p><a href="accessrecord_structured_development_consultation_guidance.html">Consultation guidance</a></p>
 	<p><a href="accessrecord_structured_development_encounter.html">Encounter</a></p>
 	<p><a href="accessrecord_structured_development_list_consultation.html">List - consultation structure</a>
