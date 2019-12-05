@@ -144,7 +144,7 @@ entries:
         - title: <b class='resource'>ReferralRequest</b>
           url: /accessrecord_structured_development_referralrequest.html
           output: web
-		  
+
       - title: FHIR&reg; examples
         output: web
         subfolderitems:
