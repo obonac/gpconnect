@@ -23,23 +23,20 @@ entries:
     - title: Introduction
       url: /accessrecord.html
       output: web, pdf     
+    - title: Sitemap
+      url: /sitemap_access_record_html.html
+      output: web      
 
   - title: Business Requirements
     output: web, pdf
     folderitems:
 
-    - title: User Stories
-      output: web, pdf   
-    - title: Use Case
-      output: web, pdf
-    - title: Clinical Engagement
+    - title: Clinical scenarios
       url: /accessrecord_clinical_scenarios.html
       output: web, pdf
     - title: Information and Governance
       output: web, pdf
-    - title: Known Issues
-      output: web
-      url: /accessrecord_known_issues.html
+
 
   - title: Design
     output: web, pdf
@@ -48,23 +45,17 @@ entries:
     - title: Design Decisions
       url: /accessrecord_design.html
       output: web
-       
-  - title: Data Model
-    output: web, pdf
-    folderitems:
-
-    - title: Overview
-      url: /datalibraryaccessRecord.html
+    - title: Known Issues
       output: web
+      url: /accessrecord_known_issues.html
           
   - title: Development
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /accessrecord_structured_development.html
-      output: web
-      
+    - title: FHIR resources
+      url: /datalibraryaccessRecord.html
+      output: web, pdf
       
       subfolders:
 
@@ -72,9 +63,6 @@ entries:
         output: web
         subfolderitems:
 
-        - title: <b class='resource'>Retrieve a care record section</b>
-          url: /accessrecord_use_case_retrieve_a_care_record_section.html
-          output: web, pdf
         - title: <b class='resource'>Standards</b>
           url: /accessrecord_development_html_implementation_guide.html
           output: web
@@ -84,51 +72,45 @@ entries:
         - title: <b class='resource'>Provider variance</b>
           url: /accessrecord_provider_variance.html
           output: web
+        - title: <b class='resource'>Summary</b>
+          url: /accessrecord_view_summary.html
+          output: web, pdf
+        - title: <b class='resource'>Encounters</b>
+          url: /accessrecord_view_encounters.html
+          output: web, pdf
+        - title: <b class='resource'>Clinical items</b>
+          url: /accessrecord_view_clinical_items.html
+          output: web, pdf
+        - title: <b class='resource'>Problems and issues</b>
+          url: /accessrecord_view_problems.html
+          output: web, pdf
+        - title: <b class='resource'>Allergies and adverse reactions</b>
+          url: /accessrecord_view_allergies.html
+          output: web, pdf
+        - title: <b class='resource'>Medications</b>
+          url: /accessrecord_view_medications.html
+          output: web, pdf
+        - title: <b class='resource'>Referrals</b>
+          url: /accessrecord_view_referrals.html
+          output: web, pdf
+        - title: <b class='resource'>Observations</b>
+          url: /accessrecord_view_observations.html
+          output: web, pdf
+        - title: <b class='resource'>Immunisations</b>
+          url: /accessrecord_view_immunisations.html
+          output: web, pdf
+        - title: <b class='resource'>Administrative items</b>
+          url: /accessrecord_view_administrative_items.html
+          output: web, pdf
     
-      - title: HTML views
+    
+      - title: API definition
         output: web, pdf
         subfolderitems:
         
-          - title: <b class='resource'>Summary</b>
-            url: /accessrecord_view_summary.html
-            output: web, pdf
-          - title: <b class='resource'>Encounters</b>
-            url: /accessrecord_view_encounters.html
-            output: web, pdf
-          - title: <b class='resource'>Clinical items</b>
-            url: /accessrecord_view_clinical_items.html
-            output: web, pdf
-          - title: <b class='resource'>Problems and issues</b>
-            url: /accessrecord_view_problems.html
-            output: web, pdf
-          - title: <b class='resource'>Allergies and adverse reactions</b>
-            url: /accessrecord_view_allergies.html
-            output: web, pdf
-          - title: <b class='resource'>Medications</b>
-            url: /accessrecord_view_medications.html
-            output: web, pdf
-          - title: <b class='resource'>Referrals</b>
-            url: /accessrecord_view_referrals.html
-            output: web, pdf
-          - title: <b class='resource'>Observations</b>
-            url: /accessrecord_view_observations.html
-            output: web, pdf
-          - title: <b class='resource'>Immunisations</b>
-            url: /accessrecord_view_immunisations.html
-            output: web, pdf
-          - title: <b class='resource'>Administrative items</b>
-            url: /accessrecord_view_administrative_items.html
-            output: web, pdf
-    
-  - title: Testing
-    output: web, pdf
-    folderitems:
-
-      
+        - title: <b class='resource'>Retrieve a care record section</b>
+          url: /accessrecord_use_case_retrieve_a_care_record_section.html
+          output: web, pdf
       
 
-      
-      
-
-      
       
