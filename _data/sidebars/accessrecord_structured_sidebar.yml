@@ -62,11 +62,11 @@ entries:
         - title: <b class='resource'>Structural resources - Bundle</b>
           url: /accessrecord_structured_development_bundle.html
           output: web
-		  
+
       - title: Allergies
         output: web
         subfolderitems:
-		
+
         - title: Allergies guidance
           url: /accessrecord_structured_development_allergies_guidance.html
           output: web
@@ -76,11 +76,11 @@ entries:
         - title: Allergies FHIR&reg; example
           url: /accessrecord_structured_development_fhir_examples_allergies.html
           output: web
-		  
+
       - title: Medications and medical devices
         output: web
         subfolderitems:
-		
+
         - title: Medication and medical device resource relationships
           url: /accessrecord_structured_development_medication_resource_relationships.html
           output: web
@@ -99,11 +99,11 @@ entries:
         - title: Medication FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_medication.html
           output: web
-		  
+
       - title: Immunisations
         output: web
         subfolderitems:
-		
+
         - title: Immunisations guidance
           output: web
           url: /accessrecord_structured_development_immunization_guidance.html
@@ -113,11 +113,11 @@ entries:
         - title: Immunization FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_immunizations.html
           output: web
-		  
+
       - title: Uncategorised
         output: web
         subfolderitems:
-		
+
         - title: Uncategorised data guidance
           url: /accessrecord_structured_development_uncategorisedData_guidance.html
           output: web
@@ -127,11 +127,11 @@ entries:
         - title: Uncategorised data FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_uncategorised.html
           output: web
-		  
+
       - title: Consultations
         output: web
         subfolderitems:
-		
+
         - title: Consultation guidance
           url: /accessrecord_structured_development_consultation_guidance.html
           output: web
@@ -144,11 +144,11 @@ entries:
         - title: Consultation FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_consultations.html
           output: web
-		  
+
       - title: Problems
         output: web
         subfolderitems:
-		
+
         - title: Problem guidance
           url: /accessrecord_structured_development_problems_guidance.html
           output: web
@@ -158,11 +158,11 @@ entries:
         - title: Problems FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_consultations.html#
           output: web
-		  
+
       - title: Investigations
         output: web
         subfolderitems:
-		
+
         - title: Investigations guidance
           url: /accessrecord_structured_development_pathology_guidance.html
           output: web
@@ -187,11 +187,11 @@ entries:
         - title: Investigations FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_pathology.html
           output: web
-		  
+
       - title: Referrals
         output: web
         subfolderitems:
-		
+
         - title: Referral guidance
           output: web
           url: /accessrecord_structured_development_referralrequest_guidance.html
@@ -201,11 +201,11 @@ entries:
         - title: Referrals FHIR&reg; examples
           url: /accessrecord_structured_development_fhir_examples_referrals.html
           output: web
-		  
+
       - title: Documents
         output: web
         subfolderitems:
-		
+
         - title: Document guidance
           output: web
           url: /accessrecord_documents.html
