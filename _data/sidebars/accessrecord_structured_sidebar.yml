@@ -210,7 +210,7 @@ entries:
           output: web
           url: /accessrecord_documents.html
 
-    - title: API definition
+      - title: API definition
         output: web
         subfolderitems:
 
