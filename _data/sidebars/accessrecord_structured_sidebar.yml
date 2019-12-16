@@ -104,9 +104,9 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Immunisations guidance
-          output: web
+        - title: Immunisation guidance
           url: /accessrecord_structured_development_immunization_guidance.html
+          output: web
         - title: <b class='resource'>Immunization</b>
           url: /accessrecord_structured_development_immunization.html
           output: web
@@ -193,8 +193,8 @@ entries:
         subfolderitems:
 
         - title: Referral guidance
-          output: web
           url: /accessrecord_structured_development_referralrequest_guidance.html
+          output: web
         - title: <b class='resource'>ReferralRequest</b>
           url: /accessrecord_structured_development_referralrequest.html
           output: web
@@ -223,3 +223,4 @@ entries:
         - title: Forwards compatibility support example
           url: /accessrecord_structured_development_fhir_examples_forwards_consultations.html
           output: web
+
