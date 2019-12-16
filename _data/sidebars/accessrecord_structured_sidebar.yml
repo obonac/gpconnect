@@ -40,15 +40,15 @@ entries:
     output: web, pdf
     folderitems:
 
-        - title: <b class='resource'>Resource population fundamentals</b>
-          url: /accessrecord_structured_development_resources_overview.html
-          output: web
-        - title: <b class='resource'>Linkages</b>
-          url: /accessrecord_structured_development_linkages.html
-          output: web
-        - title: <b class='resource'>Search criteria</b>
-          url: /accessrecord_structured_development_search.html
-          output: web
+    - title: <b class='resource'>Resource population fundamentals</b>
+      url: /accessrecord_structured_development_resources_overview.html
+      output: web
+    - title: <b class='resource'>Linkages</b>
+      url: /accessrecord_structured_development_linkages.html
+      output: web
+    - title: <b class='resource'>Search criteria</b>
+      url: /accessrecord_structured_development_search.html
+      output: web
 
       subfolders:
 
@@ -223,4 +223,3 @@ entries:
         - title: Forwards compatibility support example
           url: /accessrecord_structured_development_fhir_examples_forwards_consultations.html
           output: web
-
